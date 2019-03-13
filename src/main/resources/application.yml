@@ -1,6 +1,8 @@
 server:
+  port: 8088
   tomcat:
     uri-encoding: UTF-8
+  context-path: /demo
 
 spring:
   profiles:
@@ -16,5 +18,7 @@ spring:
     show-sql: true
     generate-ddl: true
     database-platform: org.hibernate.dialect.MySQL5Dialect
+
+
 
 

@@ -1,0 +1,3 @@
+#配置日志
+logging:
+  path: log\demo
