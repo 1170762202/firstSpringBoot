@@ -1,0 +1,99 @@
+2019-03-20 17:01:50.786  INFO 9060 --- [restartedMain] c.z.f.FirstSpringBootApplication         : Starting FirstSpringBootApplication on Z3X9CSF9XM4HM49 with PID 9060 (D:\IdeaProjects\firstSpringBoot\target\classes started by Administrator in D:\IdeaProjects\firstSpringBoot)
+2019-03-20 17:01:50.795  INFO 9060 --- [restartedMain] c.z.f.FirstSpringBootApplication         : The following profiles are active: dev
+2019-03-20 17:01:50.848  INFO 9060 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-03-20 17:01:50.849  INFO 9060 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-03-20 17:01:52.084  INFO 9060 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-20 17:01:52.261  INFO 9060 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 168ms. Found 1 repository interfaces.
+2019-03-20 17:01:52.983  INFO 9060 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d7abcab] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-20 17:01:53.909  INFO 9060 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2019-03-20 17:01:53.943  INFO 9060 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-20 17:01:53.943  INFO 9060 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-20 17:01:53.957  INFO 9060 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\java\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;F:\java\Java\jdk1.8.0_191\bin;F:\java\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;D:\Python37\Scripts\;D:\Python37\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;F:\java\Java\jdk1.8.0_191\bin;F:\java\Java\jdk1.8.0_191\jre\bin;D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools;D:\Go\bin;F:\ffmpeg-20190220-7e4d3db-win64-static\bin;F:\Git\cmd;F:\cmder;C:\Users\Administrator\go\bin;F:\MySQL\MySQL Server 8.0\bin;F:\java\IntelliJ IDEA Community Edition 2018.3.5\bin;;.]
+2019-03-20 17:01:54.078  INFO 9060 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-20 17:01:54.078  INFO 9060 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3229 ms
+2019-03-20 17:01:54.380  INFO 9060 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-03-20 17:01:55.051  INFO 9060 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-03-20 17:01:55.106  INFO 9060 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-20 17:01:55.230  INFO 9060 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-03-20 17:01:55.232  INFO 9060 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-03-20 17:01:55.458  INFO 9060 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-03-20 17:01:55.681  INFO 9060 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-20 17:01:56.205  INFO 9060 --- [restartedMain] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: com.zlx.firstSpringBoot.domain.Member (class must be instantiated by Interceptor)
+2019-03-20 17:01:56.610  INFO 9060 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-20 17:01:57.371  INFO 9060 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-20 17:01:57.431  WARN 9060 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-20 17:01:57.944  INFO 9060 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-03-20 17:01:58.024  INFO 9060 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2019-03-20 17:01:58.026  INFO 9060 --- [restartedMain] c.z.f.FirstSpringBootApplication         : Started FirstSpringBootApplication in 7.928 seconds (JVM running for 8.635)
+2019-03-20 17:03:43.288  INFO 9060 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-20 17:03:43.289  INFO 9060 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-03-20 17:03:43.297  INFO 9060 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-03-20 17:03:43.361  INFO 9060 --- [http-nio-8088-exec-1] c.z.f.service.WebSocketServer            : 有新窗口开始监听:2,当前在线人数为1
+2019-03-20 17:04:55.984  INFO 8376 --- [restartedMain] c.z.f.FirstSpringBootApplication         : Starting FirstSpringBootApplication on Z3X9CSF9XM4HM49 with PID 8376 (D:\IdeaProjects\firstSpringBoot\target\classes started by Administrator in D:\IdeaProjects\firstSpringBoot)
+2019-03-20 17:04:55.986  INFO 8376 --- [restartedMain] c.z.f.FirstSpringBootApplication         : The following profiles are active: dev
+2019-03-20 17:04:56.040  INFO 8376 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-03-20 17:04:56.041  INFO 8376 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-03-20 17:04:56.941  INFO 8376 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-20 17:04:57.111  INFO 8376 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 160ms. Found 1 repository interfaces.
+2019-03-20 17:04:57.507  INFO 8376 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$aaf3e9f1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-20 17:04:58.201  INFO 8376 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2019-03-20 17:04:58.243  INFO 8376 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-20 17:04:58.244  INFO 8376 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-20 17:04:58.259  INFO 8376 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\java\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;F:\java\Java\jdk1.8.0_191\bin;F:\java\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;D:\Python37\Scripts\;D:\Python37\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;F:\java\Java\jdk1.8.0_191\bin;F:\java\Java\jdk1.8.0_191\jre\bin;D:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools;D:\Go\bin;F:\ffmpeg-20190220-7e4d3db-win64-static\bin;F:\Git\cmd;F:\cmder;C:\Users\Administrator\go\bin;F:\MySQL\MySQL Server 8.0\bin;F:\java\IntelliJ IDEA Community Edition 2018.3.5\bin;;.]
+2019-03-20 17:04:58.413  INFO 8376 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-20 17:04:58.414  INFO 8376 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2373 ms
+2019-03-20 17:04:58.671  INFO 8376 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-03-20 17:04:59.206  INFO 8376 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-03-20 17:04:59.253  INFO 8376 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-20 17:04:59.322  INFO 8376 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-03-20 17:04:59.322  INFO 8376 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-03-20 17:04:59.499  INFO 8376 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-03-20 17:04:59.656  INFO 8376 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-20 17:04:59.998  INFO 8376 --- [restartedMain] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: com.zlx.firstSpringBoot.domain.Member (class must be instantiated by Interceptor)
+2019-03-20 17:05:00.290  INFO 8376 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-20 17:05:01.080  INFO 8376 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-20 17:05:01.150  WARN 8376 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-20 17:05:01.618  INFO 8376 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-03-20 17:05:01.694  INFO 8376 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2019-03-20 17:05:01.696  INFO 8376 --- [restartedMain] c.z.f.FirstSpringBootApplication         : Started FirstSpringBootApplication in 6.205 seconds (JVM running for 6.821)
+2019-03-20 17:05:13.440  INFO 8376 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-20 17:05:13.440  INFO 8376 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-03-20 17:05:13.452  INFO 8376 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2019-03-20 17:05:13.508  INFO 8376 --- [http-nio-8088-exec-1] c.z.f.service.WebSocketServer            : 有新窗口开始监听:2,当前在线人数为1
+2019-03-20 17:05:13.508  INFO 8376 --- [http-nio-8088-exec-1] c.z.f.service.WebSocketServer            : 单聊
+2019-03-20 17:05:29.450  INFO 8376 --- [http-nio-8088-exec-2] c.z.f.service.WebSocketServer            : 有一连接关闭！当前在线人数为0
+2019-03-20 17:05:38.059  INFO 8376 --- [http-nio-8088-exec-3] c.z.f.service.WebSocketServer            : 有新窗口开始监听:2,当前在线人数为1
+2019-03-20 17:05:38.059  INFO 8376 --- [http-nio-8088-exec-3] c.z.f.service.WebSocketServer            : 单聊
+2019-03-20 17:10:20.929  INFO 8376 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-20 17:10:20.930  INFO 8376 --- [Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-03-20 17:10:20.933  INFO 8376 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-03-20 17:10:20.945  INFO 8376 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-03-20 17:10:20.994  INFO 8376 --- [Thread-6] c.z.f.service.WebSocketServer            : 有一连接关闭！当前在线人数为0
+2019-03-20 17:10:21.271  INFO 8376 --- [restartedMain] c.z.f.FirstSpringBootApplication         : Starting FirstSpringBootApplication on Z3X9CSF9XM4HM49 with PID 8376 (D:\IdeaProjects\firstSpringBoot\target\classes started by Administrator in D:\IdeaProjects\firstSpringBoot)
+2019-03-20 17:10:21.271  INFO 8376 --- [restartedMain] c.z.f.FirstSpringBootApplication         : The following profiles are active: dev
+2019-03-20 17:10:21.594  INFO 8376 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-20 17:10:21.607  INFO 8376 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 1 repository interfaces.
+2019-03-20 17:10:21.681  INFO 8376 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$aaf3e9f1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-20 17:10:21.789  INFO 8376 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2019-03-20 17:10:21.790  INFO 8376 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-20 17:10:21.791  INFO 8376 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-20 17:10:21.812  INFO 8376 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-20 17:10:21.813  INFO 8376 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 539 ms
+2019-03-20 17:10:21.860  INFO 8376 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2019-03-20 17:10:21.880  INFO 8376 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2019-03-20 17:10:21.885  INFO 8376 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-20 17:10:21.894  INFO 8376 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-03-20 17:10:21.912  INFO 8376 --- [restartedMain] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: com.zlx.firstSpringBoot.domain.Member (class must be instantiated by Interceptor)
+2019-03-20 17:10:21.937  INFO 8376 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-20 17:10:22.113  INFO 8376 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-20 17:10:22.121  WARN 8376 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-20 17:10:22.194  INFO 8376 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-03-20 17:10:22.211  INFO 8376 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2019-03-20 17:10:22.211  INFO 8376 --- [restartedMain] c.z.f.FirstSpringBootApplication         : Started FirstSpringBootApplication in 0.982 seconds (JVM running for 327.334)
+2019-03-20 17:10:22.211  INFO 8376 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged

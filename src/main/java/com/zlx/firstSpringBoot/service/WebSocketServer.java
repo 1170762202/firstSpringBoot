@@ -1,7 +1,5 @@
 package com.zlx.firstSpringBoot.service;
 
-import com.sun.javafx.util.Logging;
-import org.apache.commons.logging.Log;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.RestController;
@@ -11,7 +9,6 @@ import javax.websocket.server.PathParam;
 import javax.websocket.server.ServerEndpoint;
 import java.io.IOException;
 import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.CopyOnWriteArraySet;
 
 @ServerEndpoint("/websocket/{sid}")
 @RestController
@@ -36,6 +33,7 @@ public class WebSocketServer {
         webSocketSet.put(sid, this);//加入set中
         addOnlineCount();
         logger.info("有新窗口开始监听:" + sid + ",当前在线人数为" + getOnlineCount());
+        sendtoUser("socket 初始化",sid);
         try {
             sendMessage("连接成功");
         } catch (IOException e) {
