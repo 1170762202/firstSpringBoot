@@ -3,8 +3,8 @@ package com.zlx.firstSpringBoot.domain;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "member")
-public class Member {
+@Table(name = "user")
+public class User {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -13,7 +13,7 @@ public class Member {
     @Column
     private String name;
 
-    public Member(String name) {
+    public User(String name) {
         this.name = name;
     }
 
@@ -35,7 +35,7 @@ public class Member {
 
     @Override
     public String toString() {
-        return "Member{" +
+        return "User{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 '}';

@@ -1,4 +1,4 @@
-package com.zlx.firstSpringBoot;
+package com.zlx.firstSpringBoot.util;
 
 import com.xiaomi.xmpush.server.Constants;
 import com.xiaomi.xmpush.server.Message;

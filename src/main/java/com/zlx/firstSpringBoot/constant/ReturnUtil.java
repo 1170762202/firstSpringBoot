@@ -1,5 +1,7 @@
 package com.zlx.firstSpringBoot.constant;
 
+import com.alibaba.fastjson.JSONObject;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -15,6 +17,15 @@ public class ReturnUtil {
         map.put("data", data);
         return map;
     }
+
+    public static <T> Map<String, Object> returnFailured(T data) {
+        Map<String, Object> map = new HashMap<>();
+        map.put("code", ResponseCode.failed.getCode());
+        map.put("message", ResponseCode.failed.getMessage());
+        map.put("data", data);
+        return map;
+    }
+
     public static Map<String, Object> returnValue(ResponseCode responseCode) {
         Map<String, Object> map = new HashMap<>();
         map.put("code", responseCode.getCode());
