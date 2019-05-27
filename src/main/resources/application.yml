@@ -26,4 +26,17 @@ mybatis:  #mybatyis的配置
 
 
 
-
+swagger:
+  enabled: true
+  title: api
+  description: desc for swagger2
+  license: Apache License, Version 2.0
+  license-url: https://www.apache.org/licenses/LICENSE-2.0.html
+  terms-of-service-url: https://github.com/pbw123/spring-boot-demo
+  contact:
+    name: zlx
+    url: 123
+    email: 1170762202@qq.com
+  base-package: com.zlx.firstSpringBoot.controller
+  base-path: /**
+  exclude-path: /error, /ops/**

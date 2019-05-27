@@ -1,5 +1,6 @@
 package com.zlx.firstSpringBoot.controller;
 
+import com.zlx.firstSpringBoot.annotation.LimitKey;
 import com.zlx.firstSpringBoot.config.HostConfig;
 import com.zlx.firstSpringBoot.constant.ResponseCode;
 import com.zlx.firstSpringBoot.constant.ReturnUtil;
@@ -14,6 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.Map;
 
 @RestController
+@RequestMapping("/user")
 public class UserController {
 
     @Autowired
@@ -24,6 +26,7 @@ public class UserController {
 
 
     @PostMapping("/save")
+    @LimitKey(frequency = 3,methodName = "save",paramKey = "saveUser",timeout = 5,url = "/user/save")
     public Map save(String name) {
         if (name == null) {
             return ReturnUtil.returnValue(ResponseCode.failed);
@@ -32,29 +35,29 @@ public class UserController {
     }
 
 
-    @RequestMapping("/")
+    @PostMapping("/")
     public void test() {
         System.out.println(hostConfig.getHost() + " " + hostConfig.getPort());
     }
 
-    @RequestMapping("/selectAll")
+    @PostMapping("/selectAll")
     public Object select() {
         return ReturnUtil.returnValue(ResponseCode.success, new UserResp(userService.selectAll()));
     }
 
-    @RequestMapping("/insert")
+    @PostMapping("/insert")
     public Object insert(User user) {
         userService.insert(user);
         return ReturnUtil.returnValue(ResponseCode.success);
     }
 
-    @RequestMapping("/deleteById")
+    @PostMapping("/deleteById")
     public Object deleteById(Long id) {
         userService.deleteUser(id);
         return ReturnUtil.returnValue(ResponseCode.success);
     }
 
-    @RequestMapping("/updateUserName")
+    @PostMapping("/updateUserName")
     public Object updateUserName(Long id, String name) {
         int a = 1 / 0;
         userService.updateUserName(id, name);
